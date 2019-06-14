@@ -1,0 +1,41 @@
+<h3 class="mv3 mv4-l">Demande de devis</h3>
+<form name="quote" data-netlify="true">
+  <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Nom*" type="text" name="name" id="name" required>
+  <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Courriel*" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+  <label for="service" class="w-100 black f6 db b ml2 mt2">Service demandé *</label>
+  <select id="service" class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" required>
+    <option value="" selected disabled>Choisir un service</option>
+    <option value="Translation">Traduction</option>
+    <option value="Proofreading">Révision</option>
+    <option value="Localization">Localisation</option>
+    <option value="Other">Autre (veuillez préciser)</option>
+  </select>
+  <label for="source" class="w-100 black f6 db b ml2 mt2">Langue source*</label>
+  <select id="source" class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" required>
+    <option value="" selected disabled>Choisir la langue source</option>
+    <option value="French (Canada)">Français (Canada)</option>
+    <option value="French (France)">Français (France)</option>
+    <option value="French (Other)">Français (Autre)</option>
+    <option value="English (U.S.)">Anglais (É.U.)</option>
+    <option value="English (Canada)">Anglais (Canada)</option>
+    <option value="English (U.K.)">Anglais (Royaume-Uni)</option>
+    <option value="English (Other)">Anglais (Autre)</option>
+
+  </select>
+  <label for="target" class="w-100 black f6 db b ml2 mt2">Langue cible*</label>
+  <select id="target" class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" required>
+    <option value="" selected disabled>Choisir la langue cible</option>
+    <option value="English (U.S.)">Anglais (É.U.)</option>
+    <option value="English (Canada)">Anglais (Canada)</option>
+    <option value="English (U.K.)">Anglais (Royaume-Uni)</option>
+    <option value="English (Other)">Anglais (Autre)</option>
+    <option value="French (Canada)">Français (Canada)</option>
+    <option value="French (France)">Français (France)</option>
+    <option value="French (Other)">Français (Autre)</option>
+  </select>
+  <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Numéro de téléphone (optionnel)" type="tel" name="tel" id="tel" pattern="^\d{3}-\d{3}-\d{4}$">
+  <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Compagnie (optionnel)" type="text" name="company" id="company">
+  <textarea class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 gray f5 h5" placeholder="Une description de votre projet" name="message" id="message" required></textarea>
+  <span class="f6 db">Prenez soin d'inclure le nombre de mots ainsi que toute autre information pertinente.</span>
+  <input class="w-100 pa3 mv4 input-reset br3 bg-green white  ba b--light-gray pointer" type="submit" value="Envoyer">
+</form>

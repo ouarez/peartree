@@ -1,0 +1,93 @@
+
+{{ define "main" }}
+  <header class="w-100">
+    <div class="w-100 bg-cover" style="background-image:url('/images/pear-tree-cover.png')">
+      <div class="w-100 shadow min-height-100 flex flex-wrap items-end">
+
+        <div class="w-100 flex flex-wrap">
+
+          <div class="w-100 container pa3">
+            <div class="w-100 flex items-center">
+              <img class="h4 w4 mr4" src="/images/peartreetranslation-logo.png"/>
+              <h1 class="white b">{{.Title}}</h1>
+            </div>
+          </div>
+
+          <nav class="w-100 flex flex-wrap items-center f6 f5-l pa3">
+            <div class="w-100 container pa3">
+              <a class="w-100 w-auto-l tc" href="#about">About</a>
+              <a class="w-100 w-auto-l tc" href="#services">Services</a>
+              <a class="w-100 w-auto-l tc" href="#quote">Request a quote</a>
+              <a class="w-100 w-auto-l tc" href="#contact">Contact us</a>
+              <a class="w-100 w-auto-l tc" href="/fr">Français</a>
+            </div>
+          </nav>
+
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="w-100">
+
+    <div class="w-100 pv3 pv5-l bb b--light-gray" id="about">
+      <div class="container flex flex-wrap">
+
+        <div class="w-100 w-50-l">
+          <h3 class="f5 b ttu">{{.Params.section1_title}}</h3>
+        </div>
+
+        <div class="w-100 w-50-l">
+          {{.Params.section1_content | markdownify}}
+        </div>
+
+      </div>
+    </div>
+
+    <div class="w-100 pv3 pv5-l bb b--light-gray" id="services">
+      <div class="container flex flex-wrap">
+
+        <div class="w-100 w-50-l">
+          <h3 class="f5 b ttu">{{.Params.section2_title}}</h3>
+        </div>
+
+        <div class="w-100 w-50-l">
+          {{.Params.section2_content | markdownify}}
+        </div>
+
+      </div>
+    </div>
+
+    <div class="w-100 pv3 pv5-l bb b--light-gray" id="quote">
+      <div class="container flex flex-wrap">
+
+        <div class="w-100 w-50-l">
+          <h3 class="f5 b ttu">{{.Params.section3_title}}</h3>
+        </div>
+
+        <div class="w-100 w-50-l">
+          {{.Params.section3_content | markdownify}}
+          {{ partial "forms/quote.en.html" . }}
+        </div>
+
+      </div>
+    </div>
+
+    <div class="w-100 pv3 pv5-l bb b--light-gray" id="contact">
+      <div class="container flex flex-wrap">
+
+        <div class="w-100 w-50-l">
+          <h3 class="f5 b ttu">{{.Params.section4_title}}</h3>
+        </div>
+
+        <div class="w-100 w-50-l lh-copy">
+          {{.Params.section4_content | markdownify}}
+          {{ partial "forms/contact.en.html" . }}
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+{{ end }}

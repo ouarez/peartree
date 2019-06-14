@@ -1,0 +1,13 @@
+baseURL = "https://peartreetranslation.com"
+languageCode = "en-ca"
+DefaultContentLanguage = "en"
+title = "Pear Tree Translation"
+
+[languages]
+  [languages.en]
+    weight = 1
+  [languages.fr]
+    weight = 2
+
+[params]
+  themeColor = "#494f5c"
