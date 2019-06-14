@@ -2,14 +2,14 @@
 title = "Pear Tree Translation"
 section1_title = "À propos"
 section1_content = """
-Basée à Montréal, PearTree Translation offre des services de traduction de l’anglais au français dans le domaine de la finance.
+Basée à Montréal, PearTree Translation offre des services de traduction de **l’anglais au français** dans le domaine de la **finance**.
 
-Qu’est-ce qui nous distingue? Nous sommes une entreprise de traduction à échelle humaine. Contrairement aux grosses boîtes de traduction,
-nous sommes en mesure d’assurer la parfaite uniformité de toutes nos traductions grâce à un processus méticuleux de révision pris en charge par un seul traducteur spécialement assigné à chaque projet et à chaque client. Cela nous permet de bâtir une relation de confiance avec chacun de nos clients tout en garantissant une communication harmonieuse et sans tracas.
+*Qu’est-ce qui nous distingue?* Nous sommes une entreprise de traduction à échelle humaine. Contrairement aux grosses boîtes de traduction,
+nous sommes en mesure d’assurer la parfaite uniformité de toutes nos traductions grâce à un **processus méticuleux de révision** pris en charge par un seul traducteur spécialement assigné à chaque projet et à chaque client. Cela nous permet de bâtir une relation de confiance avec chacun de nos clients tout en garantissant une communication harmonieuse et sans tracas.
 
-Faites-vous connaître. N’oubliez pas : rendre votre site Web et vos services accessibles à des marchés étrangers peut vous permettre d’élargir votre clientèle et d’accroître votre part de marché. Nos services aide votre entreprise à garder une image soignée, tout en vous permettant de rejoindre de nouveaux clients potentiels.
+*Faites-vous connaître.* N’oubliez pas : rendre votre site Web et vos services accessibles à des marchés étrangers peut vous permettre **d’élargir votre clientèle** et d’accroître votre part de marché. Nos services aide votre entreprise à garder une image soignée, tout en vous permettant de rejoindre de nouveaux clients potentiels.
 
-Notre objectif? Produire des traductions de qualité irréprochable dignes de votre entière satisfaction.
+*Notre objectif?* Produire des **traductions de qualité irréprochable** dignes de votre entière satisfaction.
 """
 section2_title = "Services"
 section2_content = """
