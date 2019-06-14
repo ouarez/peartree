@@ -1,4 +1,4 @@
-baseURL = "https://peartreetranslation.com"
+baseURL = "https://peartree.netlify.com"
 languageCode = "en-ca"
 DefaultContentLanguage = "en"
 title = "Pear Tree Translation"
