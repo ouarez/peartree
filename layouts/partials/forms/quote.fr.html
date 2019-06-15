@@ -3,7 +3,7 @@
   <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Nom*" type="text" name="name" id="name" required>
   <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" placeholder="Courriel*" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
   <label for="service" class="w-100 black f6 db b ml2 mt2">Service demandé *</label>
-  <select id="service" class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" required>
+  <select id="service" name="service" class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" required>
     <option value="" selected disabled>Choisir un service</option>
     <option value="Translation">Traduction</option>
     <option value="Proofreading">Révision</option>
@@ -11,7 +11,7 @@
     <option value="Other">Autre (veuillez préciser)</option>
   </select>
   <label for="source" class="w-100 black f6 db b ml2 mt2">Langue source*</label>
-  <select id="source" class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" required>
+  <select id="source" name="source" class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" required>
     <option value="" selected disabled>Choisir la langue source</option>
     <option value="French (Canada)">Français (Canada)</option>
     <option value="French (France)">Français (France)</option>
@@ -23,7 +23,7 @@
 
   </select>
   <label for="target" class="w-100 black f6 db b ml2 mt2">Langue cible*</label>
-  <select id="target" class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" required>
+  <select id="target" name="target" class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 black f5" required>
     <option value="" selected disabled>Choisir la langue cible</option>
     <option value="English (U.S.)">Anglais (É.U.)</option>
     <option value="English (Canada)">Anglais (Canada)</option>
